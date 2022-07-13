@@ -2,28 +2,30 @@
 <html>
   <head>
     <title>Resume</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
   </head>
   <body>
-   <h1>Amanda Jacobs</h1>
-   <p>An introductory personal statement.</p>
+    <header id="heading">
+      <img 
+      src="./images/profile.jpeg"
+      width = '200px'
+      alt = "Error">
+      <h1 style="color:white;">Amanda Jacobs</h1>
+      <p style="color:white;">An introductory personal statement.</p>
+    </header>
 
+    <div id="sidebar">
+      <nav>
+        <h2>Menu</h2>
+        <ul class="nav-menu">
+          <li> <a href="#edu">Education</a></li>
+          <li> <a href="#exp">Experience</a></li>
+          <li> <a href="#skl">Skills</a></li>
+         </ul>
 
-
-   <br>
-   <img
-
-     src = "./images/profile.jpeg"
-
-     width = '200px'
-   
-     alt = "Error">
-
-     <ul>
-      <li> <a href="#edu">Education</a></li>
-      <li> <a href="#exp">Experience</a></li>
-      <li> <a href="#skl">Skills</a></li>
-     </ul>
-
+      </nav>
+    </div>
+     
    <h2 id="edu">Education</h2>
    <h3>Intro to Web at <a href = "https://www.codespace.co.za/" target="_blank"> CodeSpace Academy</a></h3>
    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -56,8 +58,24 @@
     <li>Skill 4</li>
   </ul>
 
-  <h2>Contact Details</h2>
-  <a href="https://za.linkedin.com/">Linkedin</a>
+  <footer>
+    <h2 style="color:white;">Contact Details</h2>
+    <ul>
+      <a href="https://za.linkedin.com/" target="_blank">
+        <img class="icons" src="./images/in.png"
+        width="50px">
+      </a>
+      <a href="https://www.facebook.com/" target="_blank">
+        <img class="icons" src="./images/face.png"
+        width="50px">
+      </a>
+      <a href="mailto:thakwinda66@gmail.com/" target="_blank">
+        <img class="icons" src="./images/gm.webp"
+        width="70px">
+      </a>
+    </ul>
+    
+  </footer>
       
   </body>
 </html>
