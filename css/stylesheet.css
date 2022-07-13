@@ -1,5 +1,5 @@
 body{
-  font-family: sans-serif;
+  font-family: serif;
   font-size:110%;
   background-color: #FCF7F8;
 }
@@ -7,6 +7,14 @@ body{
 header {
   background-color: #343330;
   text-align: center;
+}
+
+.sidebar {
+  background-color: gray;
+  color: white;
+  border: 2px solid black;
+  width: 150px;
+  padding: 20px;
 }
 
 footer {
